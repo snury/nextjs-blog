@@ -1,6 +1,7 @@
 import React from 'react';
 import Typed from 'typed.js';
 import styles from './typedText1.module.css';
+import Audio from './audio';
 
 const TypedReactHooksDemo = () => {
 	// Create reference to store the DOM element containing the animation
@@ -41,6 +42,7 @@ const TypedReactHooksDemo = () => {
 
   return (
     <div className={styles.container}>
+      <Audio /> 
       <div className={styles.wrap}>
         <span style={{ whiteSpace: 'pre' }} ref={el} />
       </div>

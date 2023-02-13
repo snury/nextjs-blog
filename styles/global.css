@@ -25,3 +25,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.rhap_container {
+  background-color: #000!important;
+}
