@@ -21,7 +21,8 @@ const TypedReactHooksDemo = () => {
         `Люблю тебе більше за життя`,
         `До зустрічі, моя Лапка`
       ],
-      typeSpeed: 10,
+      typeSpeed: 100,
+      backSpeed: 30
     };
     
     // elRef refers to the <span> rendered below
